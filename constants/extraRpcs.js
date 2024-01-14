@@ -4119,6 +4119,9 @@ export const extraRpcs = {
       "https://tokio-archive.engram.tech",
     ],
   },
+  59901: {
+    rpcs: ["https://sepolia.rpc.metisdevops.link/"]
+  }
 };
 
 const allExtraRpcs = mergeDeep(llamaNodesRpcs, extraRpcs);
